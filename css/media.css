@@ -1,0 +1,371 @@
+@media(min-width: 1365px) {
+    /*==========everyone_visitor========*/
+    .everyone_visitor_icon_block img:nth-child(1) {
+        display: none;
+    }
+    .everyone_visitor_icon_block img:nth-child(2) {
+        display: block;
+    }
+}
+
+@media(max-width: 1365px) {
+    /*=============Header=============*/
+    .bubble_block {
+        display: none;
+    }
+    /*======left_menu========*/
+    .divider_block {
+        background-image: none;
+    }
+    /*==========everyone_visitor========*/
+    .everyone_visitor_icon_block img:nth-child(1) {
+        display: block;
+    }
+    .everyone_visitor_icon_block img:nth-child(2) {
+        display: none;
+    }
+    /*===============Worth Contacting============*/
+    .worth_contacting {
+        background-image: none;
+    }
+    .contacting_item {
+        position: static;
+        display: flex;
+        align-items: center;
+    }
+    .contacting_item::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        background: #000;
+        border-radius: 50%;
+        display: block;
+        margin-right: 25px;
+    }
+}
+
+@media(max-width: 1200px) {
+    /*=============Header=============*/
+    .header_location_content, .subscribe_to_shares_block {
+        display: none;
+    }
+    .header_tell_content::before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 19px;
+        background: #E1E1E1;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        display: block;
+    }
+    .header_tell_block {
+        margin: 0;
+    }
+    .header_top_block {
+        align-items: center;
+        justify-content: space-between;
+    }
+    /*==========CLEANING OF WEDDING DRESSES===========*/
+    .cleaning_dresses_text {
+        margin-top: 0;
+    }
+    .cleaning_dresses_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+    /*============EVERYONE VISITOR==========*/
+    .everyone_visitor_discount_block::after, .everyone_visitor_discount_block::before {
+        display: none;
+    }
+    /*========About_company======*/
+    .employee_slider-block {
+        max-width: 332px;
+    }
+}
+
+@media(max-width: 1100px) {
+    /*=======About_Company=======*/
+    .about_company_slider {
+        flex-direction: column;
+        align-items: center;
+    }
+    .employee_slider-block {
+        max-width: 495px;
+        margin-top: 30px;
+    }
+    .about_company .slick-prev {
+        left: -50px;
+    }
+    .about_company .slick-next {
+        right: -50px;
+    }
+}
+
+@media(max-width: 992px) {
+    /*=============Header=============*/
+    .navbar-nav>li>a {
+        padding: 25px;
+    }
+    /*======header_slider===*/
+    .slick-prev {
+        left: 15px;
+    }
+    .slick-next {
+        right: 15px;
+    }
+    /*===========footer===========*/
+    .footer_content_block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer_menu_blocks {
+        margin-bottom: 35px;
+    }
+    .footer_menu_blocks:last-child() {
+        margin-bottom: 0;
+    }
+    /*==============why_are_we=================*/
+    .why_are_we_icon_block {
+        width: 50%;
+    }
+    /*=====================reviews_block=====================*/
+    .customer_reviews_block {
+        padding: 27px 50px 33px;
+    }
+    /*========About_company======*/
+    .employee_slider-block {
+        max-width: 332px;
+    }
+    .company_owner {
+        margin: auto;
+    }
+    .about_company_whit_photo_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_company_whit_photo_block .about_company_photo_block {
+        margin-bottom: 30px;
+    }
+    .bottom_slider_text_block {
+        border-right: none;
+    }
+    /*====================Contact_block================*/
+    .contact_maps_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_info_block {
+        margin-top: 50px;
+    }
+    .contact_info_block {
+        margin-left: 0;
+    }
+    /*==================Stock-block=====================*/
+    .stock_items_block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .stock_item_text {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    /*=============Header=============*/
+    .navbar-nav {
+        display: block;
+    }
+    .sub_menu {
+        display: block !important;
+    }
+    .navbar-nav>li>a::after, .nav.navbar-nav li:first-child a::before {
+        display: none;
+    }
+    /*===========Left-Menu==============*/
+    .left_menu_block {
+        display: none;
+    }
+    .menu_item a {
+        background: none;
+        padding: 0;
+        border-bottom: none;
+        min-height: auto;
+        height: 50px;
+    }
+    .menu_item h4 {
+        border-left: none;
+        padding: 25px 0;
+        color: #DBDADA!important;
+        font-size: 12px;
+        font-family: 'Exo2_SemiBold';
+        text-transform: uppercase;
+    }
+    .menu_item h4:hover {
+        color: #363E5C!important
+    }
+    .scc_div::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+    }
+    .scc_div::-webkit-scrollbar-thumb {
+        background-color: #E7EDF0;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 20px;
+        border-radius: 10px;
+        cursor: ew-resize !important;
+    }
+    /*=========Header_nav==========*/
+    .navbar-collapse.collapse {
+        padding: 0 15px;
+    }
+    .list_blue, .list_sil {
+        padding: 14px 15px 12px 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .right_container{
+        padding: 0;
+    }
+    /*=============Header=============*/
+    .header_tell_content {
+        padding: 0;
+        margin-top: 30px;
+    }
+    .header_tell_content::after, .header_tell_content::before {
+        display: none;
+    }
+    .header_top_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    /*========header_slider=======*/
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+    /*===========footer===========*/
+    .footer_content_block {
+        flex-direction: column;
+        justify-content: start;
+    }
+    /*==============why_are_we=================*/
+    .why_are_we_icon_block {
+        width: 100%;
+    }
+    /*======Block_title=======*/
+    .block_title {
+        font-size: 30px;
+    }
+    /*=====================reviews_block=====================*/
+    .customer_reviews {
+        font-size: 14px;
+    }
+    .customer_reviews_block {
+        padding: 27px 25px 33px;
+    }
+    .customer_name {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    /*============CLEANING OF WEDDING DRESSES=============*/
+    .cleaning_dresses_content h2 {
+        font-size: 35px;
+    }
+    /*=========Header_slider============*/
+    .slider_block_content h2 {
+        font-size: 40px;
+    }
+    .discount_and_read_more_block h3 {
+        font-size: 30px;
+    }
+    .slider-box_items {
+        margin-top: 0;
+    }
+    /*============EVERYONE VISITOR==========*/
+    .everyone_visitor_discount_block h3 {
+        font-size: 30px;
+    }
+    /*===========reviews_block===========*/
+    .reviews_block {
+        margin-top: 30px;
+    }
+    /*=============product_prise-style-start===========*/
+    .block_title {
+        text-align: center;
+    }
+    .more_btn {
+        text-align: center;
+    }
+    .sp_right {
+        margin-top: 5px;
+    }
+    .prise_title {
+        margin: 0 auto;
+        text-align: center;
+    }
+    /*=========Reviews=========*/
+    .comment_title h2 {
+        font-size: 30px;
+    }
+    .comment_title {
+        padding-top: 50px;
+    }
+    /*=============clean_stains-style-start===========*/
+    .row_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clean_img_box {
+        margin-right: 0;
+    }
+    .row_3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .clean_stains_text {
+        text-align: center;
+        margin-top: 25px;
+    }
+    /*=======About_company=======*/
+    .about_company .slick-prev, .about_company .slick-next {
+        display: block !important;
+    }
+    /*=======Contact_page======*/
+    .maps_block {
+        min-width: 290px;
+        height: 290px;
+    }
+    /*===============price block=============*/
+    .price_list_table tr td:nth-child(2) {
+        display: none;
+    }
+    .price_list_table tr td {
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .price_list_table tr td:first-child:hover{
+        width: auto;
+        white-space: pre-wrap;
+    }
+    .price_list_table tr {
+        padding: 15px 25px;
+    }
+    .cleaning{
+        padding: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .employee_slider-block {
+        width: 166px;
+    }
+}

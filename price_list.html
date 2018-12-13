@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Price</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <!--==========Popup First===========-->
+
+    <div class="modal-form">
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                    </div>
+
+                    <div class="form_sec2-coll">
+                        <form action="#">
+                            <input type="text" placeholder="ВАШ E-MAIL" class="Popup_input">
+                            <input type="text" placeholder="ВАШ ТЕЛЕФОН" class="Popup_input">
+                            <button class="Popup_btn">ПОДПИСАТЬСЯ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--===============Popup Second===============-->
+
+    <div class="modal-form">
+        <div id="myModal_2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                    </div>
+
+                    <div class="form_sec2-coll">
+                        <div class="second_popup_items">
+                            <h2> г. Старый Оскол:</h2>
+                            <h4> Пр-т Молодежный, дом 12, Стадион "ПРОМАГРО"</h4>
+                            <a href="tel:84725452126"> 8 (4725) 45-21-26 </a>
+                            <a href="tel:89511379306">8 (951) 137-93-06</a>
+                        </div>
+                        <div class="second_popup_items">
+                            <h2> г. Старый Оскол:</h2>
+                            <h4> мкр. Интернациональный, дом 30, ТЦ "Юность" 2 этаж</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=============Back_to_top==============-->
+
+    <div class="back_to_top"></div>
+
+    <!--==============Header==============-->
+    <header>
+        <div class="main_container">
+            <div class="header_top_block">
+                <div class="logo_block">
+                    <a href="./index.html"><img src="./img/Header/logo.png" alt="Logo"></a>
+                </div>
+                <div class="subscribe_to_shares_block">
+                    <div class="subscribe_to_shares" data-toggle="modal" data-target="#myModal">
+                        <img src="./img/Header/message_icon.jpg" alt="img">
+                        <span>ПОДПИСАТЬСЯ НА АКЦИИ</span>
+                    </div>
+                    <div class="add_to_favorites">
+                        <img src="./img/Header/star_icon.jpg" alt="img">
+                        <span>ДОБАВИТЬ В ИЗБРАННОЕ</span>
+                    </div>
+                </div>
+                <div class="header_tell_block">
+                    <div class="header_tell_content">
+                        <a href="#" class="have_questions">ЕСТЬ ВОПРОСЫ? ЗВОНИТЕ НАМ!</a>
+                        <a href="tel:84725452126" class="header_tell_row"><span><img src="./img/Header/tell_icon.jpg"
+                                    alt="img"></span> 8-(4725)-45-21-26</a>
+                    </div>
+                    <div class="header_location_content">
+                        <a href="#" class="header_location_a">Пр-т Молодежный, дом 12
+                            Стадион "ПРОМАГРО"</a>
+                        <a href="#" class="our_items_row" data-toggle="modal" data-target="#myModal_2">НАШИ ПУНКТЫ
+                            ПРИЕМА</a>
+                    </div>
+                </div>
+                <div class="bubble_block">
+                    <div class="bubble_content_1">
+                        <div class="free_shipping">
+                            <h3>БЕСПЛАТНАЯ ДОСТАВКА</h3>
+                            <h5>ПРИ ЗАКАЗЕ ОТ 2500 РУБЛЕЙ</h5>
+                        </div>
+                        <h3 class="express_cleaning">ЭКСПРЕСС-ЧИСТКА</h3>
+                    </div>
+                    <div class="bubble_content_2">
+                        <h3 class="discount">10% СКИДКА</h3>
+                        <a href="#">ПОСЕТИТЕЛЯМ САЙТА</a>
+                    </div>
+                    <div class="bubble_content_3">
+                        <a href="#">ЭКОЛОГИЧЕСКАЯ ЧИТСКА КОВРОВ</a>
+                        <h3>С 1 МАРТА</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="main_container">
+                <div class="your-setings">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./price_list.html">Цены</a></li>
+                            <li><a href="./reviews.html">Отзывы</a></li>
+                            <li><a href="./about_company.html">О нас</a></li>
+                            <li><a href="./stock.html">Акции</a></li>
+                            <li class="sub_menu">
+                                <a href="#" id="myAnchor">Поддержка модулей</a>
+                                <div class="sub_menu-drop">
+                                    <div class="menu_item">
+                                        <a href="#">
+                                            <h4>ХИМЧИСТКА КОЖИ И МЕХА</h4>
+                                        </a>
+                                    </div>
+                                    <div class="menu_item">
+                                        <a href="#">
+                                            <h4>ХИМЧИСТКА ТЕКСТИЛЯ</h4>
+                                        </a>
+                                    </div>
+                                    <div class="menu_item">
+                                        <a href="#">
+                                            <h4>ХИМЧИСТКА И ГЛАЖКА ШТОР</h4>
+                                        </a>
+                                    </div>
+                                    <div class="menu_item">
+                                        <a href="#">
+                                            <h4>ХИМЧИСТКА ЧЕХЛОВ АВТОМОБИЛЬНЫХ СИДЕНИЙ</h4>
+                                        </a>
+                                    </div>
+                                    <div class="menu_item">
+                                        <a href="#">
+                                            <h4>ХИМЧИСТКА ТЕАТРАЛЬНЫХ КОСТЮМОВ</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="./contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--===================Left-Menu=====================-->
+
+    <div class="main_container">
+        <div class="section_content">
+            <div class="left_menu_block">
+                <div class="main_menu">
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_1.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_1.png" alt="img">
+                            </div>
+                            <h4>ХИМЧИСТКА КОЖИ И МЕХА</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_2.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_2.png" alt="img">
+                            </div>
+                            <h4>ХИМЧИСТКА ТЕКСТИЛЯ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_3.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_3.png" alt="img">
+                            </div>
+                            <h4>ХИМЧИСТКА И ГЛАЖКА ШТОР</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_4.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_4.png" alt="img">
+                            </div>
+                            <h4>ХИМЧИСТКА ЧЕХЛОВ АВТОМОБИЛЬНЫХ СИДЕНИЙ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_5.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_5.png" alt="img">
+                            </div>
+                            <h4>ХИМЧИСТКА ТЕАТРАЛЬНЫХ КОСТЮМОВ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_6.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_6.png" alt="img">
+                            </div>
+                            <h4>АКВА-ЧИСТКА ПУХОВИКОВ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_7.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_7.png" alt="img">
+                            </div>
+                            <h4>СТИРКА ПРЯМОГО И ФАСОННОГО БЕЛЬЯ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_8.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_8.png" alt="img">
+                            </div>
+                            <h4>ЧИСТКА СВАДЕБНЫХ ПЛАТЬЕВ И КОСТЮМОВ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_9.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_9.png" alt="img">
+                            </div>
+                            <h4>ЧИСТКА И РЕСТАВРАЦИЯ ПУХО-ПЕРОВЫХ ПОДУШЕК</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_10.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_10.png" alt="img">
+                            </div>
+                            <h4>ЧИСТКА ОДЕЯЛ И ПЛЕДОВ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_11.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_11.png" alt="img">
+                            </div>
+                            <h4>СУХАЯ ПЕННАЯ ЧИСТКА КОВРОВЫХ ИЗДЕЛИЙ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_12.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_12.png" alt="img">
+                            </div>
+                            <h4>ПОКРАСКА ИЗДЕЛИЙ ИЗ КОЖИ</h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_13.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_13.png" alt="img">
+                            </div>
+                            <h4>НАНЕСЕНИЕ ВОДООТАЛКИВАЮЩЕГО ПОКРЫТИЯ ДЛЯ ИЗДЕЛИЙ ИЗ КОЖИ </h4>
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="./details.html">
+                            <div class="menu_item_img_block">
+                                <img src="./img/left_menu/icon_14.png" alt="img">
+                                <img src="./img/left_menu/icon_hover_14.png" alt="img">
+                            </div>
+                            <h4>ВЫВЕДЕНИЕ ПЯТЕН В ПРИСУТСТВИИ ЗАКАЗЧИКА</h4>
+                        </a>
+                    </div>
+                </div>
+                <!--==============divider_block============-->
+                <div class="divider_block">
+                    <div class="divider_first_block">
+                        <h3>МЫ ДАРИМ КУПОН!</h3>
+                        <h2>НА <span>10% СКИДКУ</span></h2>
+                    </div>
+                    <h4 class="divider_block_our_website">КАЖДОМУ ПОСЕТИТЕЛЮ
+                        НАШЕГО САЙТА!</h4>
+                    <div class="print_block">
+                        <div class="print_icon">
+                            <a href="#"><img src="./img/left_menu/print_icon.png" alt="img"></a>
+                        </div>
+                        <h6>РАСПЕЧАТАТЬ КУПОН</h6>
+                    </div>
+                </div>
+            </div>
+            <!--==============Left_menu End=============-->
+            <!--===============Center_container===============-->
+            <div class="center_container">
+                <!--=========Price-block========-->
+                <!--==============page_guide_block==========-->
+                <div class="page_guide_block">
+                    <h4><a href="#">ГЛАВНАЯ</a></h4>
+                    <h4><a href="#">ЦЕНЫ</a></h4>
+                </div>
+                <div class="product_prise">
+                    <div class="right_container">
+                        <div class="prise_title">
+                            <h2>ЦЕНЫ</h2>
+                        </div>
+                        <div class="products_block">
+                            <div class="block_inner">
+                                <div class="block_title">
+                                    <div class="img_box">
+                                        <img src="img/product_prise/pro_1.png" alt="pro">
+                                    </div>
+                                    <h3>
+                                        ЧИСТКА КОВРОВ И КОВРОВЫХ ПОКРЫТИЙ
+                                    </h3>
+                                </div>
+                                <div class="price_list_table_block">
+                                    <table class="price_list_table">
+                                        <tbody>
+                                            <tr>
+                                                <td>Пиджак/Китель форменный</td>
+                                                <td colspan="1"></td>
+                                                <td>350 руб.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Пиджак сложного покроя</td>
+                                                <td colspan="1"></td>
+                                                <td>500 руб.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Смокинг/Фрак</td>
+                                                <td colspan="1"></td>
+                                                <td>500 руб.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="more_btn">
+                                    <button>СМОТРЕТЬ ВЕСЬ СПИСОК</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============Footer============-->
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_content_block">
+                <div class="footer_menu footer_menu_blocks footer_menu_block_1">
+                    <h4 class="footer_item_title">МЕНЮ</h4>
+                    <ul>
+                        <li><a href="#">услуги</a></li>
+                        <li><a href="price_list.html">прайс</a></li>
+                        <li><a href="#">о нас</a></li>
+                        <li><a href="#">отзывы</a></li>
+                        <li><a href="#">контакты</a></li>
+                        <li><a href="#">акции</a></li>
+                    </ul>
+                </div>
+                <div class="footer_menu footer_menu_blocks footer_menu_block_2">
+                    <h4 class="footer_item_title">УСЛУГИ</h4>
+                    <ul>
+                        <li><a href="#">ХИМЧИСТКА КОСТЮМНОЙ ГРУППЫ</a></li>
+                        <li><a href="#">ХИМЧИСТКА ПАЛЬТОВОЙ ГРУППЫ</a></li>
+                        <li><a href="#">ХИМЧИСТКА ПАЛЬТОВОЙ ГРУППЫ</a></li>
+                        <li><a href="#">ХИМЧИСТКА ТЕКСТИЛЬНОГО АССОРТИМЕНТА</a></li>
+                        <li><a href="#">ЧИСТКА ИЗДЕЛИЙ ИЗ КОЖИ, ЗАМШИ И МЕХА</a></li>
+                        <li><a href="#">ЭКОЛОГИЧЕСКАЯ ЧИСТКА КОВРОВ</a></li>
+                    </ul>
+                </div>
+                <div class="reception_points footer_menu_blocks footer_menu_block_3">
+                    <h4 class="footer_item_title">АДРЕСА ПРИЕМНЫХ ПУНКТОВ</h4>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>г. Старый Оскол</span>
+                                <p> Пр-т Мол одежный, дом 12 Стадион "ПРОМАГРО"</p>
+                            </a>
+                        </li>
+                        <li><a href="#"><span>г. Старый Оскол </span>б-р Дружбы 8</a></li>
+                        <li><a href="#"><span>г. Губкин </span>б-р Дружбы 8</a></li>
+                        <li><a href="#"><span>п. Чернянка </span>б-р Дружбы 8</a></li>
+                    </ul>
+                    <a href="tel:84725452126" class="footer_phone_number">тел.: 8-(4725)-45-21-26</a>
+                    <p class="footer_all_information">Вся информация на сайте имеет ознакомительный
+                        характер и не является договором оферты.</p>
+                </div>
+                <div class="payment_methods footer_menu_blocks footer_menu_block_4">
+                    <h4 class="footer_item_title">СПОСОБЫ ОПЛАТЫ</h4>
+                    <div class="footer_cards">
+                        <div class="footer_item">
+                            <a href="#"><img src="./img/footer/Visa.png" alt="img"></a>
+                        </div>
+                        <div class="footer_item">
+                            <a href="#"><img src="./img/footer/Glare.png" alt="img"></a>
+                        </div>
+                        <div class="footer_item">
+                            <a href="#"><img src="./img/footer/icon_1.png" alt="img"></a>
+                        </div>
+                    </div>
+                    <div class="card_description">
+                        <p>* карты принимаются
+                            только в основном
+                            приемном пункте</p>
+                    </div>
+                    <div class="social_block">
+                        <h5>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h5>
+                        <div class="social_icon_block">
+                            <div class="social_icon">
+                                <a href="#"><img src="./img/footer/icon_B.png" alt="img"></a>
+                            </div>
+                            <div class="social_icon">
+                                <a href="#"><img src="./img/footer/facebook.png" alt="img"></a>
+                            </div>
+                            <div class="social_icon">
+                                <a href="#"><img src="./img/footer/twitter.png" alt="img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="footer_subtitle">ООО "ОРОС Групп" © 2013-2015 | Все права защищены.</h5>
+        </div>
+    </footer>
+
+    <!--==========Script===========-->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js">
+    </script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/init.js"></script>
+</body>
+
+</html>
